@@ -79,6 +79,14 @@
                             <constraint firstItem="NVj-WP-fyO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-50" id="w95-eT-J2Z"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cityName" destination="UPW-mt-dKK" id="yp0-0P-OpT"/>
+                        <outlet property="currentCityTemp" destination="TGw-WF-t2c" id="PQD-6V-Npy"/>
+                        <outlet property="currentDate" destination="ucz-Y3-ySP" id="OOK-sR-98t"/>
+                        <outlet property="specialBG" destination="NVj-WP-fyO" id="qjU-sH-Twc"/>
+                        <outlet property="weatherImage" destination="mTN-eo-QNr" id="zOz-8D-PLK"/>
+                        <outlet property="weatherType" destination="Nob-dS-Sza" id="VNP-WW-6Xj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
